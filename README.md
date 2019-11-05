@@ -1,14 +1,14 @@
 # 4602-Mozilla
-Group 5:
+# Group 5:
 
-Jiahao Wang (jiwa8909@colorado.edu)
-Juliet Anne Mcfarlane (Juliet.Mcfarlane@colorado.edu)
-Jiaheng Zhao (jizh3194@colorado.edu)
+<li>Jiahao Wang (jiwa8909@colorado.edu)</li>
+<li>Juliet Anne Mcfarlane (Juliet.Mcfarlane@colorado.edu)</li>
+<li>Jiaheng Zhao (jizh3194@colorado.edu)</li>
 
 <h2>Team Member Roles: </h2>
-<li>Style: Jiaheng Zhao: First Visualization.</li>
-<li>Style: Jiahao Wang: Second Visualization.</li>
-<li>Style: Juliet Anne McFarlane: Analyze the data.</li>
+<li>Jiaheng Zhao: First Visualization.</li>
+<li>Jiahao Wang: Second Visualization.</li>
+<li>Juliet Anne McFarlane: Analyze the data.</li>
 
 <h2>Design Process:</h2> 
   <li>Brainstorming: The first step in the process is to come up with a visual idea. We got together as a group and exchanged thoughts on the survey questions and how they could be correlated. After analyzing the complex data, we decided to implement two visualizations. We wanted to focus on privacy because it is becoming a huge issue in today’s society. Just as our idea meets the requirements, a visualization that includes quantitative data and a visualization that includes categorical data. 
@@ -35,14 +35,14 @@ The second visualization is a pie chart. We focused on the question: "What is yo
 
 
 <h2>Accomplishment:</h2>
-(1)Minimum Requirements:
+(1) Minimum Requirements:
 <ul>
 <li>One visualization includes some quantitative data.</li>
 <li>One visualization includes categorical data.</li>
 <li>Each visualization be interactive.</li>
 <li>Our visualizations support at least one meaningful comparison between related data attributes.</li>
 <li>Our visualizations visualize at least five data attributes total.</li>
-(2)Above and Beyond:
+(2) Above and Beyond:
 <li>Unusual Representations: Draw on some of the examples from class to represent data in ways beyond a typical scatter plots or bar chart.</li>
 <li>Geography: Incorporate maps or other geospatial data components into your visualization.</li>
 <li>Coordinated Views: Have two or more visualizations that interact with one another as you move through the data.</li>
