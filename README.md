@@ -42,6 +42,7 @@ The second visualization is a pie chart. We focused on the question: "What is yo
 <li>Each visualization be interactive.</li>
 <li>Our visualizations support at least one meaningful comparison between related data attributes.</li>
 <li>Our visualizations visualize at least five data attributes total.</li>
+
 (2) Above and Beyond:
 <li>Unusual Representations: Draw on some of the examples from class to represent data in ways beyond a typical scatter plots or bar chart.</li>
 <li>Geography: Incorporate maps or other geospatial data components into your visualization.</li>
@@ -49,9 +50,10 @@ The second visualization is a pie chart. We focused on the question: "What is yo
 </ul>
 
 <h2>Build Instructions:</h2>
-All submissions must be made through GitHub with a timestamp by 11:59pm on 11.4. Your submission files should include:
+
 <ul>
 <li>(1)Launch a server in the root directory: python3 -m http.server 8000</li>
+	
 <li>(2)http://localhost:8000/index.html</li>
 </ul>
 	
