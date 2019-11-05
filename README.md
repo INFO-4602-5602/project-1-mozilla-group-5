@@ -11,13 +11,12 @@
 <li>Juliet Anne McFarlane: Analyze the data.</li>
 
 <h2>Design Process:</h2> 
-  <li>Brainstorming: The first step in the process is to come up with a visual idea. We got together as a group and exchanged thoughts on the survey questions and how they could be correlated. After analyzing the complex data, we decided to implement two visualizations. We wanted to focus on privacy because it is becoming a huge issue in today’s society. Just as our idea meets the requirements, a visualization that includes quantitative data and a visualization that includes categorical data. 
-  </li>
+Brainstorming: The first step in the process is to come up with a visual idea. We got together as a group and exchanged thoughts on the survey questions and how they could be correlated. After analyzing the complex data, we decided to implement two visualizations. We wanted to focus on privacy because it is becoming a huge issue in today’s society. Just as our idea meets the requirements, a visualization that includes quantitative data and a visualization that includes categorical data. 
+
   
 
 <h2>The first visualization:</h2> 
-<li>we will analyze the following columns - "Privacy: You are planning on buying your next cool new tech toy. Maybe its a smart TV or a new smartphone. Take a look at the items below and Include them in order of importance as you make that purchase." We intend to use the world map to express the degree of privacy of people in different countries with the brightness of the colors. 
-</li>
+we will analyze the following columns - "Privacy: You are planning on buying your next cool new tech toy. Maybe its a smart TV or a new smartphone. Take a look at the items below and Include them in order of importance as you make that purchase." We intend to use the world map to express the degree of privacy of people in different countries with the brightness of the colors. 
 
 
 <h2>The second visualization:</h2> 
