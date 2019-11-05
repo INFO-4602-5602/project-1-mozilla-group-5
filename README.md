@@ -54,7 +54,7 @@ The second visualization is a pie chart. We focused on the question: "What is yo
 <h2>Build Instructions:</h2>
 
 <ul>
-<li>(1)Launch a server in the root directory: python3 -m http.server 8000</li>
+<li>(1)Launch a server in the root directory(named as “visualizations” folder): python3 -m http.server 8000</li>
 	
 <li>(2)http://localhost:8000/index.html</li>
 </ul>
