@@ -35,6 +35,7 @@ The second visualization is a pie chart. We focused on the question: "What is yo
 
 
 <h2>Accomplishment:</h2>
+
 (1) Minimum Requirements:
 <ul>
 <li>One visualization includes some quantitative data.</li>
@@ -42,8 +43,10 @@ The second visualization is a pie chart. We focused on the question: "What is yo
 <li>Each visualization be interactive.</li>
 <li>Our visualizations support at least one meaningful comparison between related data attributes.</li>
 <li>Our visualizations visualize at least five data attributes total.</li>
+</ul>
 
 (2) Above and Beyond:
+<ul>
 <li>Unusual Representations: Draw on some of the examples from class to represent data in ways beyond a typical scatter plots or bar chart.</li>
 <li>Geography: Incorporate maps or other geospatial data components into your visualization.</li>
 <li>Coordinated Views: Have two or more visualizations that interact with one another as you move through the data.</li>
