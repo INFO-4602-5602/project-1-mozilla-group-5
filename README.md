@@ -1,82 +1,57 @@
 # 4602-Mozilla
-*Due November 4, 2019 @ 11:59pm through GitHub Classroom*
+Group 5:
 
-Projects may be submitted up to 3 days late, with a 10% penalty per day
+Jiahao Wang (jiwa8909@colorado.edu)
+Juliet Anne Mcfarlane (Juliet.Mcfarlane@colorado.edu)
+Jiaheng Zhao (jizh3194@colorado.edu)
 
-<h2>Overview: </h2>
-Mozilla (the same company that created the Firefox web browser) recently conducted a survey on people's perceptions of privacy in our modern, highly connected world. The survey was aimed at understanding how comfortable people from all over the world are with various technology and how that comfort varies with things like device ownership or tech savvy. You can learn more about their data here: https://blog.mozilla.org/blog/2017/11/01/10-fascinating-things-we-learned-when-we-asked-the-world-how-connected-are-you/?utm_source=newsletter-mofo&utm_medium=email&utm_campaign=IOTsurveyresults&utm_content=callout&utm_term=4434975
+<h2>Team Member Roles: </h2>
+<li>Style: Jiaheng Zhao: First Visualization.</li>
+<li>Style: Jiahao Wang: Second Visualization.</li>
+<li>Style: Juliet Anne McFarlane: Analyze the data.</li>
 
-The challenge is that, while they have a rich set of data, they don't have strong ways of exploring that data beyond basic spreadsheets and descriptive statistics. Your goal is to create a set of visualizations that allows them to engage with their data. The raw data is available at: https://drive.google.com/file/d/0B5UMbl9u1_wQc2l0ZTU0dTdoYnM/view
+<h2>Design Process:</h2> 
+  <li>Brainstorming: The first step in the process is to come up with a visual idea. We got together as a group and exchanged thoughts on the survey questions and how they could be correlated. After analyzing the complex data, we decided to implement two visualizations. We wanted to focus on privacy because it is becoming a huge issue in today’s society. Just as our idea meets the requirements, a visualization that includes quantitative data and a visualization that includes categorical data. 
+  </li>
+  
 
-To do this, create visualizations that illustrate at least two insights into their data. The above blog post has some insights you can use to start thinking about this dataset, but I encourage you to think outside of these ideas as well. 
+<h2>The first visualization:</h2> 
+<li>we will analyze the following columns - "Privacy: You are planning on buying your next cool new tech toy. Maybe its a smart TV or a new smartphone. Take a look at the items below and Include them in order of importance as you make that purchase." We intend to use the world map to express the degree of privacy of people in different countries with the brightness of the colors. 
+</li>
 
-<h2>Minimum Requirements:</h2> 
-Your project must:
+
+<h2>The second visualization:</h2> 
+We will then use the pie chart to analyze the following problems: "What is your biggest fear as we move toward a more connected future?" This will be interactive as you click on different countries. Viewers can see the proportion of people in each country with different answers to this question.
+
+<h2>Preprocessing:</h2> 
+Use python to preprocess the raw data and count the answers to these two questions for each country. After filtering out the null values, we calculate the average value of the problem — “Privacy:You are planning on buying your next cool new tech toy. Maybe its a smart TV or a new smartphone. Take a look at the items below and arrange them in order of importance as you make that purchase”, which corresponds to the color of the map. Using python to calculate the number of different opinions, in the following question - "What is your biggest fear as we move towards a more connected future?" The number of people in different opinions corresponds to the size of the pie chart.
+
+<h2>Interactivity:</h2> 
+Both visualizations contain information revolving around privacy. The first visualization is a ranking scale of the importance of privacy. It correlates with the second visualization, which gives more details on the fear of the respondents from each given country. By clicking on a country from the first visualization, the second visualization will pop up. This allows you to directly correlate the information on privacy and it’s importance because both of the survey questions gave answers related to privacy.
+
+<h2>Insights:</h2>
+Our first visualization involves a map. We focused both visualizations on the importance of privacy. The first visualization revolves around the question "You are planning on buying your next cool tech toy. Maybe it's a smart TV or a new smartphone. Take a look at the items below and arrange." The options listed for the respondents were “price,” “features,” “safety,” “security,” “privacy,” “reliability,” “user reviews,” “expert reviews,” “friend or family recommendation,” and “convenience.” The darker a country is, the more that they value privacy as the most important. If we take a look at Algeria, we can see that it is the middle brown shade. That means that the average of the ranking of privacy for respondents in Algeria was between 4-6. By looking at the visualization, we can see that most countries value privacy pretty heavily, as most countries are the middle shade to the darkest shade. The visualization takes the average of the rankings for the privacy of the respondents based on their countries. This gives us an idea on how much they value privacy when they are looking into trying out a new technology. 
+The second visualization is a pie chart. We focused on the question: "What is your biggest fear as we move towards a more connected future?" This is interactive, so as you click on a country, you can gain some insight into the country’s thoughts on this question with a pie chart. The five options for answers were “the loss of privacy,” “we'll be less safe,” “we'll lose touch with one another,” “I have no fears about a more connected future,” and “other (please specify).” For example, as we can see on the country Algeria, the loss of privacy was the most answered, followed by we'll lose touch with one another, we'll be less safe, and I have no fears about a more connected future. The goal of our visualizations were to focus on what fears countries have as we move into the future of a very technology based world and how a lot of those fears involve privacy. This is important as technology quickly evolves. This visualization could be very useful to Mozilla because companies need to know the importance of privacy for the future. As you can see by just looking at the map, most countries fall in a range that involves privacy. Then, as you click on countries, you can dig deeper into their fears. Just as most countries gave privacy a ranking of 4 or more, there were similar results in the second visualization. The loss of privacy was answered as the majority for many countries. This really says something considering that a huge majority of respondents considered themselves to be ultra nerds, technically savvy, or an average user. Those respondents are likely using their devices a lot, which means they have a lot to consider when it comes to the future. 
+
+
+<h2>Accomplishment:</h2>
+(1)Minimum Requirements:
 <ul>
-<li> Include a README.md file that outlines:
-  <ul>
-  <li>Information about your visualizations and what they show. Include information about interactions, preprocesses, and design as appropriate. Note what tasks the visualization allows you to accomplish to derive this insight and how your design is tailored to support these tasks. </li>
-  <li>Your design process (e.g., how did you go about designing, building, and refining your system? Why did you choose these representations?)</li>
-  <li>Your team roles for each individual</li>
-  <li>How to run your project</li></ul></li>
-<li>Include at least two unique visualizations:
-  <ul>
-  <li>One visualization must include some quantitative data</li>
-  <li>One visualization must include categorical data</li>
-  <li>Each visualization must be interactive</li>
-  <li>Your visualizations should support at least one meaningful comparison between related data attributes</li>
-  <li>Your visualizations should visualize at least five data attributes total</li></ul></li>
-<li>Be able to work with any dataset of this format (e.g., the numbers are interchangable but the columns and document titles are fixed).</li>
-</ul>
-
-<h2>Above and Beyond:</h2> 
-The above requirements are the minimum for a passing grade on this project. Some ideas to improve your project include:<ul>
-<li>Unusual Representations: Draw on some of the examples from class to represent data in ways beyond a typical scatterplot or bar chart.</li>
-<li>Style: Keep the style consistent across all your views, with an eye towards intelligently applying visual design.</li>
+<li>One visualization includes some quantitative data.</li>
+<li>One visualization includes categorical data.</li>
+<li>Each visualization be interactive.</li>
+<li>Our visualizations support at least one meaningful comparison between related data attributes.</li>
+<li>Our visualizations visualize at least five data attributes total.</li>
+(2)Above and Beyond:
+<li>Unusual Representations: Draw on some of the examples from class to represent data in ways beyond a typical scatter plots or bar chart.</li>
 <li>Geography: Incorporate maps or other geospatial data components into your visualization.</li>
-<li>Interesting Tasks: Derive insight into the data beyond that provided in Mozilla's current post. Highlight these insights in your readme and describe how the visualization enables them.</li>
-<li>Perceptually-Informed Design: Integrate perceptual concepts into your visualization design and discuss how you've integrated those concepts in your readme.</li>
-<li>Coordinated Views: Have two or more visualizations that interact with one another as you move through the data.</li></ul>
-
-<h2>Platforms:</h2> 
-You can use any development platform you'd like so long as your final project runs in the browser without having to install anything new. Your project readme should include step-by-step instructions on how to run your projects and it should run without me having to modify the code. You are welcome to use different platforms for each visualization.
-
-Some platforms to look at include:
-<ul>
-<li>D3</li>
-<li>R with ggplot</li>
-<li>WebGL or Three.js</li>
-<li>ProcessingJS</li>
-<li>Google Maps API</li>
-<li>Open Street Map API</li>
-<li>Bokeh</li>
+<li>Coordinated Views: Have two or more visualizations that interact with one another as you move through the data.</li>
 </ul>
 
-If you would like to use a platform that will push you in creative ways but may not support all of the requirements of the project, please come talk to me. 
-
-<h2>Submissions:</h2>
+<h2>Build Instructions:</h2>
 All submissions must be made through GitHub with a timestamp by 11:59pm on 11.4. Your submission files should include:
 <ul>
-<li>Your README</li>
-<li>Your code and/or project</li>
+<li>(1)Launch a server in the root directory: python3 -m http.server 8000</li>
+<li>(2)http://localhost:8000/index.html</li>
 </ul>
-Note that each group only needs to submit one file. 
-
-## Project Teams
-Group 1:	Savannah Bornstein, Joshua Paup, Elise Bergmann, Conner Sinjem
-
-Group 2:	Lanea Blackburn, Priya Panati, Edgar Mendoza, Jacob Boeckenstedt
-
-Group 3:	Hannah Weber, Trevor Buck, Clark Mousaw	
-
-Group 4:	Madeline Cupchak, Hunter Rief, Kathleen Anderson, Yizhen Wu
-
-Group 5:	Jiaheng Zhao, Jiahao Wang, Juliet McFarlane, Michael Rogers
-
-Group 6:	Mary Yoder, Julia Merten, Paige Stockebrand, Lu Liu
-
-Group 7:	Jihoon Jang, Caden Bradbury, Talia Colalancia	
-
-Group 8:	Joshua Barker, Angus MacDonald, Malik Tefridj, Keaton Whitehead
-
-Group 9:	Anthony Camacci, Dilon Clark, Steven Yatko	
+	
